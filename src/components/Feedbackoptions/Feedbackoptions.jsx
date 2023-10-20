@@ -6,13 +6,17 @@ class Feedbackoptions extends Component {
   render() {
     return (
       <div className={css.containerFeedback}>
-        <button className={css.buttonFeedback} type="button">
+        <button className={css.buttonGood} type="button">
           Good
         </button>
-        <button className={css.buttonFeedback} type="button">
+        <button
+          className={css.buttonNeutral}
+
+          type="button"
+        >
           Neutral
         </button>
-        <button className={css.buttonFeedback} type="button">
+        <button className={css.buttonFeedbackBad} type="button">
           Bad
         </button>
       </div>
@@ -37,5 +41,5 @@ export default Feedbackoptions;
 //       </div>
 //     );
 //   };
-  
+
 //   export default Feedbackoptions;

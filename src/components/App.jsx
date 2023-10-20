@@ -1,5 +1,5 @@
 import React from 'react';
-import { Feedbackoptions, Section } from 'components';
+import { Feedbackoptions, Section, Statistics } from 'components';
 
 export const App = () => {
   return (
@@ -9,7 +9,7 @@ export const App = () => {
       </Section>
 
       <Section title='Statistics'>
-      {/* <Statistics /> */}
+      <Statistics />
       </Section>
      
     </div>
