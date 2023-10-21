@@ -21,6 +21,8 @@ class App extends Component {
     const positive = this.state.good;
     const percent = (positive / total) * 100;
     return percent.toFixed();
+    // const total = this.countTotalFeedback();
+    //     return Math.round(this.state.good * 100 / total);
   };
 
   render() {
