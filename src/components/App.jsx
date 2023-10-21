@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import { Feedbackoptions, Section, Statistics } from 'components';
+import { Feedbackoptions, Section, Statistics, Notification } from 'components';
 
 class App extends Component {
   state = {
@@ -28,6 +28,7 @@ class App extends Component {
             bad={this.state.bad}
           />
         </Section>
+        <Notification message="There is no feedback" />
       </div>
     );
   }
