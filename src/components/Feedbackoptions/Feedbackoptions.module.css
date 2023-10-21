@@ -5,45 +5,17 @@
   gap: 10px;
 }
 
-.buttonFeedbackBad {
+.buttonFeedback {
   width: 60px;
   height: 28px;
 
   border-width: inherit;
   border-radius: 5px;
   outline: none;
-  background-color: #e22626;
-  color: white;
-  cursor: pointer;
-}
-.buttonFeedbackBad:focus {
-  background-color: #c72323;
-}
-.buttonGood {
-  width: 60px;
-  height: 28px;
-  border-width: inherit;
-  border-radius: 5px;
-  outline: none;
-  background-color: #17b248;
-  color: white;
-  cursor: pointer;
-}
-.buttonGood:focus {
-  background-color: #128d39;
-}
-
-.buttonNeutral {
-    width: 60px;
-  height: 28px;
-
-  border-width: inherit;
-  border-radius: 5px;
-  outline: none;
-  background-color: #e1dfd6;
   color: black;
   cursor: pointer;
 }
-.buttonNeutral:focus {
-  background-color: #a09e97;
+.buttonFeedback:focus {
+  background-color: #c72323;
+  color: white;
 }
